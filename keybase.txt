@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/martintapia
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://martintapia.com
+  * I am martintapia (https://keybase.io/martintapia) on keybase.
+  * I have a public key with fingerprint 2C73 582D E8F1 6C33 5413  4910 1008 2641 F952 C327
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "2c73582de8f16c335413491010082641f952c327",
+            "host": "keybase.io",
+            "key_id": "10082641f952c327",
+            "uid": "ca45573a146d54ab6dbafd44702a3b00",
+            "username": "martintapia"
+        },
+        "service": {
+            "hostname": "martintapia.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411397966,
+    "expire_in": 157680000,
+    "prev": "7df88b46fa0e09a8fe50803ab98a165d00b2c8aa730d5b6bc08cfe3e10717c8b",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMHjAnicbZFdSBRRFMdn7Xtd0yRLDUkvixJseud7dvt4iRR8KEoljWq5M3NHR3dn
+1tn1Y1ETg7SIJVNIi5SgAukDRTJDX8QioUgiRCzfoiQfaiuhTCq6I/VU9+Vwz/md
+//kfzuOkNZTT8TWu16S9icmOZxPLdVRptvdQE5BNNQp8TaAGrwZNNyqxFbJ0IwJ8
+gFFElpcYFUsaLSgsy3M0y3lpSEMoMQJHa16eUVhGBB5QZYbtDiIjozDO102SIx+/
+rpLsf/i61YKCOJ4XWURzgspzSBZUGWkqx4mQQawMoQ2GsWWgICZ0EFkRYgyFdARa
+PIAU6nUF27bt6f9C+YoZJAohy4yYihkgxapIJBT22c2RaMimG7Ds/6Pjl3VDJeuT
+jnpshXXTAD6akEpEt4VpjqZZr+gVBA/AjSHdwn7dJnhRkCB59hxcTyRFVZMkmRM0
+BDH0IknDPJQgi2SvhGiBVyGUGUVCSGShysuCrEBJ0TCLaSjSoiLJwN6s1jCBjyE2
+USWRDOuVBorUWRi0TE6cWEs5nNT6dQn2ASnnppS/Z515tZG6If4oKLqTE50+hcoX
+hmN5qX2Dra36p2xlMMF3t2r2XIL7pXakx3H9yujuwuet/UMPjEV3cbzDXD5ZUtiz
+lPlinE4qezt3L/aQCWd86H+f1Xv8Qjq7dNX1sX/ywGtHV74c9DB7kq9J3XRFV8f3
+xqLPUWpmf+7AYvtAdOvTzVlP2OHS02Np8QKrje1OTtw70Dx3eyQQ6ExUpg+3QWPE
+NZWX0dt989vOs8U57VGxYt8jc5vbGaj2za5UH13JTWmoHR+5lZk+tX1S+pL682DB
+kPtd+Y7L82UXY5NxFSSnrZznmhc6qfmJS9Ub+n61l58ZLRnbBY519bhci2rb/cIt
+vwFUgw07
+=yzPX
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/martintapia
+
+==================================================================
+
