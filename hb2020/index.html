@@ -10,7 +10,7 @@
 	</head>
 	<body style="text-align: center; margin-top: 40px; font-size: 25px;">
 		<p id="form">
-			Code <input id="code" type="number" style="font-size: 25px;" size="6" maxlength="4" min="0" max"9999" />
+			Code <input id="code" type="number" style="font-size: 25px;" min="0" max"9999" />
 			<button id="ok" style="font-size: 20px;">OK</button>
 		</p>
 		<p id="result">
@@ -20,7 +20,7 @@
 			$(document).ready(function() {
 				console.log("ah");
 				$("#ledire").click(function() {
-					responsiveVoice.speak("hello world");
+					responsiveVoice.speak("HB Jean-Marc", "French Male", {rate: 0.8});
 				});
 			});
 		</script>
