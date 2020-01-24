@@ -9,7 +9,7 @@
 		<script src="https://code.responsivevoice.org/responsivevoice.js?key=Ca4sZdSs"></script>
 	</head>
 	<body style="text-align: center; margin-top: 40px; font-size: 25px;">
-		<form id="form">
+		<form id="form" autocomplete="off">
 			Code <input id="code" type="number" style="font-size: 25px; width: 100px;" min="0" max="9999" />
 			<input type="submit" style="font-size: 20px;" value="OK" />
 		</form>
@@ -29,6 +29,7 @@
 					if (birthdays[code]) {
 						$("#theone").text(birthdays[code]);
 						$("#form").hide("slow", function() {
+							console.log("A")
 							$("#result").show("slow");
 						});
 					} else {
