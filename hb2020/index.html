@@ -3,22 +3,35 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>HB</title>
+		<title>HB v2</title>
 		<link rel="icon" type="image/png" href="../landing/favicon.png" />
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 		<script src="https://code.responsivevoice.org/responsivevoice.js?key=Ca4sZdSs"></script>
 	</head>
 	<body style="text-align: center; margin-top: 40px; font-size: 25px;">
-		<p id="form">
-			Code <input id="code" type="number" style="font-size: 25px;" maxlength="4" size="6" min="0" max="9999" />
-			<button id="ok" style="font-size: 20px;">OK</button>
-		</p>
+		<form id="form">
+			Code <input id="code" type="number" style="font-size: 25px; width: 100px;" min="0" max="9999" />
+			<input type="submit" style="font-size: 20px;" value="OK" />
+		</form>
 		<p id="result">
 			<a id="ledire" href="#">🔊 Le dire</a>
 		</p>
 		<script>
 			$(document).ready(function() {
-				console.log("ah");
+				var birthdays = {
+					"1001": "Jean-Marc",
+					"2412": "Brigitte"
+				};
+				$("#form").on("submit", function() {
+					var code = $("#code").val();
+					if (birthdays[code]) {
+						$("#form").hide();
+					} else {
+						alert("Ce n'est pas ton anniversaire !");
+						$("#code").val("");
+					}
+					return false;
+				});
 				$("#ledire").click(function() {
 					responsiveVoice.speak("HB Jean-Marc", "French Male", {rate: 0.8});
 				});
